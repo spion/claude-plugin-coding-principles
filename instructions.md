@@ -52,7 +52,7 @@ Follow language conventions. EffectTS projects are an exception, where we follow
 - If its not possible to express units in the above described way, prefer **integration tests** over unit tests
   - For example, if logic is spread between SQL and code significantly for performance reasons, its often better to test with DB testcontainers
   - However, if logic to fetch data is simple, but the code manipulating the data is complex, the complex code can clearly benefit from unit tests.
-- Sometimes tests are not worth writing at all. Project context defines this. Ask me if unsure.
+- Sometimes tests are not worth writing at all. A small prototype script is one example where the cruft of tests only obscures the idea. Ask me if unsure.
 
 ## Project Structure
 
