@@ -75,6 +75,8 @@ Enable or disable the plugin to turn the principles on or off.
 - It still sometimes misjudges when a declarative functional style pays off.
   It errs towards slightly unreadable loops rather than functional code with a performance overhead.
 - It is not very good at finding business rules for property tests.
+- The tests and evals for the plugin are currently private and semi-manual.
+  Public, more automated tests and evals are a work in progress.
 
 ## Future work
 
