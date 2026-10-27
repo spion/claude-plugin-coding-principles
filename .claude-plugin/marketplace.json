@@ -1,0 +1,5 @@
+{
+  "name": "coding-principles",
+  "owner": { "name": "Gorgi Kosev" },
+  "plugins": [{ "name": "coding-principles", "source": "./" }]
+}
